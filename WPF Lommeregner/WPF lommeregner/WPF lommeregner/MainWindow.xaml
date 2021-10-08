@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPF_lommeregner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_lommeregner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Margin="87,0,0,0" VerticalAlignment="Center" Height="50" Width="50" FontWeight="Bold" FontStyle="Normal" FontSize="35" Click="plus_Click"/>
+        <TextBox x:Name="Tal1" HorizontalAlignment="Left" Height="44" Margin="87,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" FontSize="25"/>
+        <TextBox x:Name="Tal2" HorizontalAlignment="Left" Height="44" Margin="253,115,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" FontSize="25"/>
+        <TextBox x:Name="Resultat" HorizontalAlignment="Left" Height="44" Margin="515,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" FontSize="35" IsEnabled="False" Text="heheh " ClipToBounds="True" FontWeight="Bold" FontStyle="Normal" TextDecorations="{x:Null}" BorderBrush="#FF3C8CE2">
+            <TextBox.Foreground>
+                <SolidColorBrush Color="Black" Opacity="1"/>
+            </TextBox.Foreground>
+            <TextBox.Background>
+                <SolidColorBrush Color="#FFB3B3B3" Opacity="0.5"/>
+            </TextBox.Background>
+        </TextBox>
+        <Label x:Name="Equal" Content="=" HorizontalAlignment="Left" Margin="424,112,0,0" VerticalAlignment="Top" FontSize="35" Height="50"/>
+        <Button x:Name="Minus" Content="-" HorizontalAlignment="Left" Margin="154,0,0,0" VerticalAlignment="Center" Height="50" Width="50" IsCancel="True" FontSize="35" FontWeight="Bold" Click="Minus_Click"/>
+        <Button x:Name="Gange" Content="x" HorizontalAlignment="Left" Margin="253,0,0,0" VerticalAlignment="Center" Height="50" Width="50" FontWeight="Bold" FontSize="35" Click="Gange_Click"/>
+        <Button x:Name="Divider" Content="/" HorizontalAlignment="Left" Margin="320,0,0,0" VerticalAlignment="Center" Height="50" Width="50" FontWeight="Bold" FontSize="25" Click="Divider_Click"/>
+        <Button x:Name="Beregn" Content="Beregn" HorizontalAlignment="Left" Height="50" Margin="524,0,0,0" VerticalAlignment="Center" Width="100" FontSize="25" FontWeight="Bold" FontStyle="Italic"/>
+
+
+    </Grid>
+</Window>

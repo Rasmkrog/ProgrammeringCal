@@ -1,0 +1,66 @@
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.exe
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.deps.json
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.runtimeconfig.json
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.runtimeconfig.dev.json
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.dll
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\ref\WPF lommeregner.dll
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.pdb
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.csproj.AssemblyReference.cache
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\App.g.cs
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner_MarkupCompile.cache
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner_MarkupCompile.lref
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\MainWindow.baml
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.g.resources
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.AssemblyInfoInputs.cache
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.AssemblyInfo.cs
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.csproj.CoreCompileInputs.cache
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.dll
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\ref\WPF lommeregner.dll
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.pdb
+D:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.genruntimeconfig.cache
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.exe
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.deps.json
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.runtimeconfig.json
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.runtimeconfig.dev.json
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.dll
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\ref\WPF lommeregner.dll
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.pdb
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.csproj.AssemblyReference.cache
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\MainWindow.g.cs
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\App.g.cs
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner_MarkupCompile.cache
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner_MarkupCompile.lref
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\MainWindow.baml
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.g.resources
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.GeneratedMSBuildEditorConfig.editorconfig
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.AssemblyInfoInputs.cache
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.AssemblyInfo.cs
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.csproj.CoreCompileInputs.cache
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.dll
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\ref\WPF lommeregner.dll
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.pdb
+G:\Rasmus\skole arbejde\Programering\Vis\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.genruntimeconfig.cache
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.exe
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.deps.json
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.runtimeconfig.json
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.runtimeconfig.dev.json
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.dll
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\ref\WPF lommeregner.dll
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\bin\Debug\net5.0-windows\WPF lommeregner.pdb
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.csproj.AssemblyReference.cache
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner_MarkupCompile.cache
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner_MarkupCompile.lref
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.g.resources
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.AssemblyInfoInputs.cache
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.AssemblyInfo.cs
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.csproj.CoreCompileInputs.cache
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.dll
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\ref\WPF lommeregner.dll
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.pdb
+C:\Users\rasmk\Desktop\Programmeringsfiler\KrogGIT\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.genruntimeconfig.cache
