@@ -23,51 +23,150 @@ namespace WPF_lommeregner
             InitializeComponent();
         }
 
-        private void plus_Click(object sender, RoutedEventArgs e)
+
+        private void ButtonNubmer1_Click(object sender, RoutedEventArgs e)
         {
-            double firstNumber = double.Parse(Tal1.Text);
-            double secondNumber = double.Parse(Tal2.Text);
-
-            double resultat = firstNumber + secondNumber;
-            Resultat.Text = Convert.ToString(resultat);
-
 
         }
 
-        private void Minus_Click(object sender, RoutedEventArgs e)
+        private void ButtonNubmer2_Click(object sender, RoutedEventArgs e)
         {
-            double firstNumber = double.Parse(Tal1.Text);
-            double secondNumber = double.Parse(Tal2.Text);
-
-            double resultat = firstNumber - secondNumber;
-            Resultat.Text = Convert.ToString(resultat);
 
         }
 
-        private void Gange_Click(object sender, RoutedEventArgs e)
+        private void ButtonNubmer3_Click(object sender, RoutedEventArgs e)
         {
-            double firstNumber = double.Parse(Tal1.Text);
-            double secondNumber = double.Parse(Tal2.Text);
-
-            double resultat = firstNumber * secondNumber;
-            Resultat.Text = Convert.ToString(resultat);
 
         }
 
-        private void Divider_Click(object sender, RoutedEventArgs e)
+        private void ButtonNubmer4_Click(object sender, RoutedEventArgs e)
         {
-            double firstNumber = double.Parse(Tal1.Text);
-            double secondNumber = double.Parse(Tal2.Text);
 
-            if (secondNumber != 0)
-            {
-                double resultat = firstNumber / secondNumber;
-                Resultat.Text = Convert.ToString(resultat);
-            }
-            else
-            {
-                Resultat.Text = "Error";
-            }
+        }
+
+        private void ButtonNubmer5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer6_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer9_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer10_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer11_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer12_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer13_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer14_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer15_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer16_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer17_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer18_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer19_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer20_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer21_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer22_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer23_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer24_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer25_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer26_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer27_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer28_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonNubmer29_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
