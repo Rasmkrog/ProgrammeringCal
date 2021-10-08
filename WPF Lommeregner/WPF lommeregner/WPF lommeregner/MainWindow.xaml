@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPF_lommeregner"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800"
-        Background="DarkCyan">
+        Background="LightGray">
 
 
     <Grid>
@@ -31,39 +31,40 @@
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
 
-        <Label x:Name="OutputLabel" Background="White" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5"/>
-
-        <Button x:Name="ButtonNubmer1" Content="OFF" Grid.Column="1" Grid.Row="2" Grid.RowSpan="1" Click="ButtonNubmer1_Click" />
-        <Button x:Name="ButtonNubmer2" Content="Kvadratrod" Grid.Column="2" Grid.Row="2" Grid.RowSpan="1" Click="ButtonNubmer2_Click" />
-        <Button x:Name="ButtonNubmer3" Content="Pause" Grid.Column="3" Grid.Row="2" Grid.RowSpan="1" Click="ButtonNubmer3_Click" />
-        <Button x:Name="ButtonNubmer4" Content="TAX-" Grid.Column="4" Grid.Row="2" Grid.RowSpan="1" Click="ButtonNubmer4_Click" />
-        <Button x:Name="ButtonNubmer5" Content="TAX+" Grid.Column="5" Grid.Row="1" Grid.RowSpan="2" Height="68" Margin="0,136,0,0" VerticalAlignment="Top" Click="ButtonNubmer5_Click" />
-        <Button x:Name="ButtonNubmer6" Content="MRC" Grid.Column="1" Grid.Row="3" Grid.RowSpan="1" Click="ButtonNubmer6_Click" />
-        <Button x:Name="ButtonNubmer7" Content="M-" Grid.Column="2" Grid.Row="3" Grid.RowSpan="1" Click="ButtonNubmer7_Click" />
-        <Button x:Name="ButtonNubmer8" Content="M+" Grid.Column="3" Grid.Row="3" Grid.RowSpan="1" Click="ButtonNubmer8_Click" />
-        <Button x:Name="ButtonNubmer9" Content="%" Grid.Column="4" Grid.Row="3" Grid.RowSpan="1" Click="ButtonNubmer9_Click" />
-        <Button x:Name="ButtonNubmer10" Content="/" Grid.Column="5" Grid.Row="3" Grid.RowSpan="1" Click="ButtonNubmer10_Click" />
-        <Button x:Name="ButtonNubmer11" Content="M/EX" Grid.Column="1" Grid.Row="4" Grid.RowSpan="1" Click="ButtonNubmer11_Click" />
-        <Button x:Name="ButtonNubmer12" Content="7" Background="Gray" Grid.Column="2" Grid.Row="4" Grid.RowSpan="1" Click="ButtonNubmer12_Click" />
-        <Button x:Name="ButtonNubmer13" Content="8" Background="Gray" Grid.Column="3" Grid.Row="4" Grid.RowSpan="1" Click="ButtonNubmer13_Click" />
-        <Button x:Name="ButtonNubmer14" Content="9" Background="Gray" Grid.Column="4" Grid.Row="4" Grid.RowSpan="1" Click="ButtonNubmer14_Click" />
-        <Button x:Name="ButtonNubmer15" Content="X" Grid.Column="5" Grid.Row="4" Grid.RowSpan="1" Click="ButtonNubmer15_Click" />
-        <Button x:Name="ButtonNubmer16" Content="+/-" Grid.Column="1" Grid.Row="5" Grid.RowSpan="1" Click="ButtonNubmer16_Click" />
-        <Button x:Name="ButtonNubmer17" Content="4" Background="Gray" Grid.Column="2" Grid.Row="5" Grid.RowSpan="1" Click="ButtonNubmer17_Click" />
-        <Button x:Name="ButtonNubmer18" Content="5" Background="Gray" Grid.Column="3" Grid.Row="5" Grid.RowSpan="1" Click="ButtonNubmer18_Click" />
-        <Button x:Name="ButtonNubmer19" Content="6" Background="Gray" Grid.Column="4" Grid.Row="5" Grid.RowSpan="1" Click="ButtonNubmer19_Click" />
-        <Button x:Name="ButtonNubmer20" Content="-" Grid.Column="5" Grid.Row="5" Grid.RowSpan="1" Click="ButtonNubmer20_Click" />
-        <Button x:Name="ButtonNubmer21" Content="C" Background="Orange" Grid.Column="1" Grid.Row="6" Grid.RowSpan="1" Click="ButtonNubmer21_Click" />
-        <Button x:Name="ButtonNubmer22" Content="1" Background="Gray" Grid.Column="2" Grid.Row="6" Grid.RowSpan="1" Click="ButtonNubmer22_Click" />
-        <Button x:Name="ButtonNubmer23" Content="2" Background="Gray" Grid.Column="3" Grid.Row="6" Grid.RowSpan="1" Click="ButtonNubmer23_Click" />
-        <Button x:Name="ButtonNubmer24" Content="3" Background="Gray" Grid.Column="4" Grid.Row="6" Grid.RowSpan="1" Click="ButtonNubmer24_Click" />
-        <Button x:Name="ButtonNubmer25" Content="+" Grid.Column="5" Grid.Row="6" Grid.RowSpan="2" Click="ButtonNubmer25_Click" />
-        <Button x:Name="ButtonNubmer26" Content="AC" Background="Orange" Grid.Column="1" Grid.Row="7" Grid.RowSpan="1" Click="ButtonNubmer26_Click" />
-        <Button x:Name="ButtonNubmer27" Content="0" Background="Gray" Grid.Column="2" Grid.Row="7" Grid.RowSpan="1" Click="ButtonNubmer27_Click" />
-        <Button x:Name="ButtonNubmer28" Content="." Grid.Column="3" Grid.Row="7" Grid.RowSpan="1" Click="ButtonNubmer28_Click" />
-        <Button x:Name="ButtonNubmer29" Content="=" Grid.Column="4" Grid.Row="7" Grid.RowSpan="1" Click="ButtonNubmer29_Click" />
+        <Label x:Name="OutputLabel" Background="White" Style="{StaticResource OutputLabel}" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5"/>
 
 
+
+        <Button x:Name="ButtonNubmer1" Content="OFF" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="1" Grid.Row="2" Grid.RowSpan="1" Click="ButtonNubmer1_Click" />
+        <Button x:Name="ButtonNubmer2" Content="Kvadratrod" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="2" Grid.Row="2" Grid.RowSpan="1" Click="ButtonNubmer2_Click" />
+        <Button x:Name="ButtonNubmer3" Content="Pause" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="3" Grid.Row="2" Grid.RowSpan="1" Click="ButtonNubmer3_Click" />
+        <Button x:Name="ButtonNubmer4" Content="TAX-" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="4" Grid.Row="2" Grid.RowSpan="1" Click="ButtonNubmer4_Click" />
+        <Button x:Name="ButtonNubmer5" Content="TAX+" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="5" Grid.Row="2" Grid.RowSpan="1" Click="ButtonNubmer5_Click" />
+        <Button x:Name="ButtonNubmer6" Content="MRC" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="1" Grid.Row="3" Grid.RowSpan="1" Click="ButtonNubmer6_Click" />
+        <Button x:Name="ButtonNubmer7" Content="M-" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="2" Grid.Row="3" Grid.RowSpan="1" Click="ButtonNubmer7_Click" />
+        <Button x:Name="ButtonNubmer8" Content="M+" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="3" Grid.Row="3" Grid.RowSpan="1" Click="ButtonNubmer8_Click" />
+        <Button x:Name="ButtonNubmer9" Content="%" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="4" Grid.Row="3" Grid.RowSpan="1" Click="ButtonNubmer9_Click" />
+        <Button x:Name="ButtonNubmer10" Content="/" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="5" Grid.Row="3" Grid.RowSpan="1" Click="ButtonNubmer10_Click" />
+        <Button x:Name="ButtonNubmer11" Content="M/EX" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="1" Grid.Row="4" Grid.RowSpan="1" Click="ButtonNubmer11_Click" />
+        <Button x:Name="ButtonNubmer12" Content="7" Background="Gray" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="2" Grid.Row="4" Grid.RowSpan="1" Click="ButtonNubmer12_Click" />
+        <Button x:Name="ButtonNubmer13" Content="8" Background="Gray" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="3" Grid.Row="4" Grid.RowSpan="1" Click="ButtonNubmer13_Click" />
+        <Button x:Name="ButtonNubmer14" Content="9" Background="Gray" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="4" Grid.Row="4" Grid.RowSpan="1" Click="ButtonNubmer14_Click" />
+        <Button x:Name="ButtonNubmer15" Content="X" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="5" Grid.Row="4" Grid.RowSpan="1" Click="ButtonNubmer15_Click" />
+        <Button x:Name="ButtonNubmer16" Content="+/-" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="1" Grid.Row="5" Grid.RowSpan="1" Click="ButtonNubmer16_Click" />
+        <Button x:Name="ButtonNubmer17" Content="4" Background="Gray" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="2" Grid.Row="5" Grid.RowSpan="1" Click="ButtonNubmer17_Click" />
+        <Button x:Name="ButtonNubmer18" Content="5" Background="Gray" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="3" Grid.Row="5" Grid.RowSpan="1" Click="ButtonNubmer18_Click" />
+        <Button x:Name="ButtonNubmer19" Content="6" Background="Gray" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="4" Grid.Row="5" Grid.RowSpan="1" Click="ButtonNubmer19_Click" />
+        <Button x:Name="ButtonNubmer20" Content="-" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="5" Grid.Row="5" Grid.RowSpan="1" Click="ButtonNubmer20_Click" />
+        <Button x:Name="ButtonNubmer21" Content="C" Background="Orange" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="1" Grid.Row="6" Grid.RowSpan="1" Click="ButtonNubmer21_Click" />
+        <Button x:Name="ButtonNubmer22" Content="1" Background="Gray" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="2" Grid.Row="6" Grid.RowSpan="1" Click="ButtonNubmer22_Click" />
+        <Button x:Name="ButtonNubmer23" Content="2" Background="Gray" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="3" Grid.Row="6" Grid.RowSpan="1" Click="ButtonNubmer23_Click" />
+        <Button x:Name="ButtonNubmer24" Content="3" Background="Gray" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="4" Grid.Row="6" Grid.RowSpan="1" Click="ButtonNubmer24_Click" />
+        <Button x:Name="ButtonNubmer25" Content="+" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="5" Grid.Row="6" Grid.RowSpan="2" Click="ButtonNubmer25_Click" />
+        <Button x:Name="ButtonNubmer26" Content="AC" Background="Orange" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="1" Grid.Row="7" Grid.RowSpan="1" Click="ButtonNubmer26_Click" />
+        <Button x:Name="ButtonNubmer27" Content="0" Background="Gray" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="2" Grid.Row="7" Grid.RowSpan="1" Click="ButtonNubmer27_Click" />
+        <Button x:Name="ButtonNubmer28" Content="." Style="{StaticResource CalculatorButtonStyle}" Grid.Column="3" Grid.Row="7" Grid.RowSpan="1" Click="ButtonNubmer28_Click" />
+        <Button x:Name="ButtonNubmer29" Content="=" Style="{StaticResource CalculatorButtonStyle}" Grid.Column="4" Grid.Row="7" Grid.RowSpan="1" Click="ButtonNubmer29_Click" />
+            
     </Grid>
 
 

@@ -86,3 +86,4 @@ C:\Users\madsg\Source\Repos\Rasmkrog\ProgrammeringCal\WPF Lommeregner\WPF lommer
 C:\Users\madsg\Source\Repos\Rasmkrog\ProgrammeringCal\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.AssemblyInfo.cs
 C:\Users\madsg\Source\Repos\Rasmkrog\ProgrammeringCal\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.csproj.CoreCompileInputs.cache
 C:\Users\madsg\Source\Repos\Rasmkrog\ProgrammeringCal\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\WPF lommeregner.genruntimeconfig.cache
+C:\Users\madsg\Source\Repos\Rasmkrog\ProgrammeringCal\WPF Lommeregner\WPF lommeregner\WPF lommeregner\obj\Debug\net5.0-windows\App.baml
