@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Diagnostics;
 
 namespace WPF_lommeregner
 {
@@ -19,24 +20,34 @@ namespace WPF_lommeregner
     {
         public MainWindow()
         {
-            
             InitializeComponent();
         }
 
+        private string Text;
+        Calulator Cal = new Calulator();
         // Calcutor Actions
-        private void ButtonNubmer1_Click(object sender, RoutedEventArgs e) // OFF
+        private void ButtonNubmer1_Click(object sender, RoutedEventArgs e) // OFF Button
         {
-
+            string ExitMessage = "Do you want to close this window?";
+            MessageBoxResult MessageBoxAnswer = MessageBox.Show(ExitMessage, "My App", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.No);
+            switch (MessageBoxAnswer)
+            {
+                case MessageBoxResult.Yes:
+                    System.Environment.Exit(0);
+                    break;
+                case MessageBoxResult.No:
+                    break;
+            }
         }
 
         private void ButtonNubmer26_Click(object sender, RoutedEventArgs e) // AC
         {
-
+            OutputLabel.Content = Cal.Clear();
         }
 
         private void ButtonNubmer21_Click(object sender, RoutedEventArgs e) // C
         {
-
+            OutputLabel.Content = Cal.RemoveCharacter();
         }
 
         private void ButtonNubmer3_Click(object sender, RoutedEventArgs e) // Pause
@@ -47,52 +58,52 @@ namespace WPF_lommeregner
         // Numbers  -----------------------------------------------------------------------------------------
         private void ButtonNubmer27_Click(object sender, RoutedEventArgs e) // 0
         {
-
+            OutputLabel.Content = Cal.Add("0");
         }
 
         private void ButtonNubmer22_Click(object sender, RoutedEventArgs e) // 1
         {
-
+            OutputLabel.Content = Cal.Add("1");
         }
 
         private void ButtonNubmer23_Click(object sender, RoutedEventArgs e) // 2
         {
-
+            OutputLabel.Content = Cal.Add("2");
         }
 
         private void ButtonNubmer24_Click(object sender, RoutedEventArgs e) // 3
         {
-
+            OutputLabel.Content = Cal.Add("3");
         }
 
         private void ButtonNubmer17_Click(object sender, RoutedEventArgs e) // 4
         {
-
+            OutputLabel.Content = Cal.Add("4");
         }
 
         private void ButtonNubmer18_Click(object sender, RoutedEventArgs e) // 5
         {
-
+            OutputLabel.Content = Cal.Add("5");
         }
 
         private void ButtonNubmer19_Click(object sender, RoutedEventArgs e) // 6
         {
-
+            OutputLabel.Content = Cal.Add("6");
         }
 
         private void ButtonNubmer12_Click(object sender, RoutedEventArgs e) // 7
         {
-
+            OutputLabel.Content = Cal.Add("7");
         }
 
         private void ButtonNubmer13_Click(object sender, RoutedEventArgs e) // 8
         {
-
+            OutputLabel.Content = Cal.Add("8");
         }
 
         private void ButtonNubmer14_Click(object sender, RoutedEventArgs e) // 9
         {
-
+            OutputLabel.Content = Cal.Add("9");
         }
 
 
@@ -105,12 +116,12 @@ namespace WPF_lommeregner
 
         private void ButtonNubmer9_Click(object sender, RoutedEventArgs e) // %
         {
-
+            OutputLabel.Content = Cal.Add("%");
         }
 
         private void ButtonNubmer10_Click(object sender, RoutedEventArgs e) // /
         {
-
+            OutputLabel.Content = Cal.Add("/");
         }
 
         private void ButtonNubmer15_Click(object sender, RoutedEventArgs e) // X
@@ -140,7 +151,7 @@ namespace WPF_lommeregner
 
         private void ButtonNubmer29_Click(object sender, RoutedEventArgs e) // =
         {
-
+            OutputLabel.Content = Cal.CalculatEqution();
         }
 
         // Random ----------------------------------------------------------------------
@@ -172,6 +183,37 @@ namespace WPF_lommeregner
         {
 
         }
+
     }
+    public class Calulator
+    {
+        private string EqutionIndex;
+        private bool isNumeric;
+        private int n;
+        public string Add(string Text)
+        {
+            isNumeric = int.TryParse(Text, out n);
+            if (isNumeric == true)
+            {
+                EqutionIndex += Text;
+            }
+            return EqutionIndex;
+        }
+        public string Clear()
+        {
+            return EqutionIndex = "";
+        }
+        
+        public string RemoveCharacter()
+        {
+            return EqutionIndex = EqutionIndex.Remove(EqutionIndex.Length - 1); 
+        }
+
+        public string CalculatEqution()
+        {
+            return EqutionIndex;
+        }
+        
+    } 
 }
 

@@ -33,6 +33,9 @@
         <Style TargetType="Label" x:Key="OutputLabel">
             <Setter Property="BorderThickness" Value="2" />
             <Setter Property="BorderBrush" Value="Black" />
+            <Setter Property="HorizontalContentAlignment" Value="Right"/>
+            <Setter Property="VerticalContentAlignment" Value="Bottom"/>
+            <Setter Property="FontSize" Value="100"/>
 
         </Style>
     </Application.Resources>

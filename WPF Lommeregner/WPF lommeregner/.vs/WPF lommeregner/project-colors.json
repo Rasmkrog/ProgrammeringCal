@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4d83307d-40d8-47b6-ab23-3d1ab9e6b088": {
+      "ProjectGuid": "4d83307d-40d8-47b6-ab23-3d1ab9e6b088",
+      "DisplayName": "WPF lommeregner",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
