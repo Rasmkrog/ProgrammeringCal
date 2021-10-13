@@ -29,16 +29,8 @@ namespace WPF_lommeregner
         // Calcutor Actions
         private void ButtonNubmer1_Click(object sender, RoutedEventArgs e) // OFF Button
         {
-            string ExitMessage = "Do you want to close this window?";
-            MessageBoxResult MessageBoxAnswer = MessageBox.Show(ExitMessage, "My App", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.No);
-            switch (MessageBoxAnswer)
-            {
-                case MessageBoxResult.Yes:
-                    System.Environment.Exit(0);
-                    break;
-                case MessageBoxResult.No:
-                    break;
-            }
+            Cal.CalculatorOFF();
+        
         }
 
         private void ButtonNubmer26_Click(object sender, RoutedEventArgs e) // AC
@@ -191,6 +183,7 @@ namespace WPF_lommeregner
         private string EquationString;
         private string EquationSUM;
         private bool CalculatEqutionStatus;
+
         public string Add(string Text) // tilføjer tegn til EquationString og Returner
         {
             if (CalculatEqutionStatus == true) // gør at summen kommer tilbage så man kan lave en ny operator på summen.
@@ -219,7 +212,19 @@ namespace WPF_lommeregner
             CalculatEqutionStatus = true;
             return (EquationSUM.Replace(",", "."));
         }
-        
+        public void CalculatorOFF()
+        {
+            string ExitMessage = "Do you want to close this window?";
+            MessageBoxResult MessageBoxAnswer = MessageBox.Show(ExitMessage, "", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.No);
+            switch (MessageBoxAnswer)
+            {
+                case MessageBoxResult.Yes:
+                    System.Environment.Exit(0);
+                    break;
+                case MessageBoxResult.No:
+                    break;
+            }
+        }
     } 
 }
 
