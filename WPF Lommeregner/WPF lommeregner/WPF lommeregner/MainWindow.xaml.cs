@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Diagnostics;
+using System.Data;
 
 namespace WPF_lommeregner
 {
@@ -111,7 +112,7 @@ namespace WPF_lommeregner
         // Operators  ------------------------------------------------------------------------- 
         private void ButtonNubmer2_Click(object sender, RoutedEventArgs e) // KvadratRod
         {
-
+            OutputLabel.Content = Cal.Add("sqrt");
         }
 
         private void ButtonNubmer9_Click(object sender, RoutedEventArgs e) // %
@@ -124,29 +125,29 @@ namespace WPF_lommeregner
             OutputLabel.Content = Cal.Add("/");
         }
 
-        private void ButtonNubmer15_Click(object sender, RoutedEventArgs e) // X
+        private void ButtonNubmer15_Click(object sender, RoutedEventArgs e) // *
         {
-
+            OutputLabel.Content = Cal.Add("*");
         }
 
         private void ButtonNubmer16_Click(object sender, RoutedEventArgs e) // +/-
         {
-
+            OutputLabel.Content = Cal.Add("+/-");
         }
 
         private void ButtonNubmer20_Click(object sender, RoutedEventArgs e) // -
         {
-
+            OutputLabel.Content = Cal.Add("-");
         }
 
         private void ButtonNubmer25_Click(object sender, RoutedEventArgs e) // +
         {
-
+            OutputLabel.Content = Cal.Add("+");
         }
 
         private void ButtonNubmer28_Click(object sender, RoutedEventArgs e) // .
         {
-
+            OutputLabel.Content = Cal.Add(".");
         }
 
         private void ButtonNubmer29_Click(object sender, RoutedEventArgs e) // =
@@ -187,31 +188,36 @@ namespace WPF_lommeregner
     }
     public class Calulator
     {
-        private string EqutionIndex;
-        private bool isNumeric;
-        private int n;
-        public string Add(string Text)
+        private string EquationString;
+        private string EquationSUM;
+        private bool CalculatEqutionStatus;
+        public string Add(string Text) // tilføjer tegn til EquationString og Returner
         {
-            isNumeric = int.TryParse(Text, out n);
-            if (isNumeric == true)
+            if (CalculatEqutionStatus == true) // gør at summen kommer tilbage så man kan lave en ny operator på summen.
             {
-                EqutionIndex += Text;
+                EquationString = EquationSUM;
+                CalculatEqutionStatus = false;
+                EquationSUM = "";
             }
-            return EqutionIndex;
+            EquationString += Text;
+            return EquationString;
         }
-        public string Clear()
+        public string Clear() //Clear EquationString
         {
-            return EqutionIndex = "";
+            return EquationString = "";
         }
         
-        public string RemoveCharacter()
+        public string RemoveCharacter() //Sletter et Tegn
         {
-            return EqutionIndex = EqutionIndex.Remove(EqutionIndex.Length - 1); 
+            return EquationString = EquationString.Remove(EquationString.Length - 1); 
         }
 
-        public string CalculatEqution()
+        public string CalculatEqution() // returner Summen af EquationString
         {
-            return EqutionIndex;
+            EquationSUM = new DataTable().Compute(EquationString.Replace(",", "."), "") + ""; // ikke snyd en del af lib
+            Clear();
+            CalculatEqutionStatus = true;
+            return (EquationSUM.Replace(",", "."));
         }
         
     } 
