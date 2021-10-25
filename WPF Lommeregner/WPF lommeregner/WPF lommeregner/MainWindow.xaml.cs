@@ -202,7 +202,11 @@ namespace WPF_lommeregner
         
         public string RemoveCharacter() //Sletter et Tegn
         {
-            return EquationString = EquationString.Remove(EquationString.Length - 1); 
+            if (EquationString != "")
+            {
+                EquationString = EquationString.Remove(EquationString.Length - 1);
+            }
+            return EquationString;
         }
 
         public string CalculatEqution() // returner Summen af EquationString

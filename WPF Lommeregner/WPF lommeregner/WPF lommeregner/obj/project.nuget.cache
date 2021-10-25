@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BjWyTXyCEROfzObT4lnYjEYWMYHYLqRzapOkk/0ItMPlMI/cqPmOhsoIz6VQRHc1BkV1VuOCyNs+UbuFXwWQqw==",
+  "dgSpecHash": "1Ie0pzzJQnF8V2B2S2FqfFOj33dwpDOLeCYp0kEkDhcshKl599MxieeWIvFof1sjGjlWAcnGLukhABDWAbhkaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Documents\\GitHub\\Rasmkrog\\ProgrammeringCal\\WPF Lommeregner\\WPF lommeregner\\WPF lommeregner\\WPF lommeregner.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\pc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\rasmk\\Desktop\\Programmeringsfiler\\ProgrammeringCal\\WPF Lommeregner\\WPF lommeregner\\WPF lommeregner\\WPF lommeregner.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
